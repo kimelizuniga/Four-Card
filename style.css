@@ -1,0 +1,99 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+img {
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+}
+
+.card {
+    height: 18rem;
+}
+
+
+h1:nth-of-type(1){
+    color: hsl(229, 6%, 66%);
+    font-weight: 200;
+}
+
+h1:nth-of-type(2){
+    font-weight: 600;
+    color: hsl(234, 12%, 34%);
+}
+
+div .container {
+    width: 55%;
+    color: hsl(229, 6%, 66%);
+}
+
+
+.centerCard {
+    margin: 50% 0;
+}
+
+.midCardTop {
+    margin-top: 15%;
+}
+
+.card-title {
+    font-weight: 600;
+    color: hsl(234, 12%, 34%);
+}
+
+.card-text {
+    color: hsl(229, 6%, 66%);
+}
+
+.card-body {
+    position: relative;
+    text-align: left;
+}
+
+
+
+
+#border-red {
+    border-top: 3px solid hsl(0, 78%, 62%);
+}
+
+#border-cyan {
+    border-top: 3px solid hsl(180, 62%, 55%);
+}
+
+#border-blue {
+    border-top: 3px solid hsl(212, 86%, 64%);
+}
+
+#border-orange {
+    border-top: 3px solid hsl(34, 97%, 64%);
+}
+
+@media (min-width: 300px) and (max-width: 900px){
+
+    h1 {
+        font-size: 2rem;
+        margin-bottom: 1rem     ;
+    }
+
+    .centerCard {
+        margin: 0;
+    }
+
+    .midCardTop {
+        margin: 0;
+    }
+
+    .card {
+        margin-bottom: 10%;
+    }
+
+    div .container {
+        width: 80%;
+    }
+}
